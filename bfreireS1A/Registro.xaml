@@ -4,9 +4,14 @@
              x:Class="bfreireS1A.Registro">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Label Text="MI PRIMER APP :)" TextColor="Purple" FontSize="20" HorizontalTextAlignment="Center"></Label>
+            <Label Text="SISTEMAS DE INFORMACIÓN" FontSize="18" TextColor="Orange" VerticalTextAlignment="Center"/>
+            <!--Para realizar comentarios es = Ctrl + k + c-->
+            <Entry x:Name="txtDatoNombre" Placeholder="Ingrese su nombre" MaxLength="25"/>
+            <Entry x:Name="txtDatoApellido" Placeholder="Ingrese su apellido" MaxLength="25"/>
+            <Entry x:Name="txtDatoEdad" Placeholder="Ingrese su edad" MaxLength="2"/>
+            <Button x:Name="btnsaludo" Text="Saludar" Clicked="btnsaludo_Clicked"/>
+            <Button x:Name="btnCalcularAnio" Text="Calcular año de nacimiento" Clicked="btnCalcularAnio_Clicked_1"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

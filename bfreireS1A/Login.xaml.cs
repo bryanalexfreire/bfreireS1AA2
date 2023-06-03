@@ -27,7 +27,7 @@ namespace bfreireS1A
             }
             else
             {
-                DisplayAlert("Alerta", "Usuario o contraseña incorrectos", "Cerrar")
+                DisplayAlert("Alerta", "Usuario o contraseña incorrectos", "Cerrar");
             }
         }
     }
